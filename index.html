@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CoolSlider DEMO</title>
+    <link rel="Stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <div class="b-container">
+        <h1 class="title">CoolSlider DEMO</h1>
+        <div class="m-slider">
+            <div class="m-slider_list">
+                <img class="m-slider_listElem is-active" src="images/slide1.jpg" />
+                <img class="m-slider_listElem" src="images/slide2.jpg" />
+                <img class="m-slider_listElem" src="images/slide3.jpg" />
+            </div>
+            <div class="m-slider_options">
+                <button class="m-slider_btn m-slider_btnPrev" disabled="true">&laquo; Poprzedni</button>
+                <button class="m-slider_btn m-slider_btnNext">Następny &raquo;</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/slider.js"></script>
+    <script>
+        var slider = new coolSlider();
+        slider.open();
+    </script>
+</body>
+</html>
